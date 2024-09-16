@@ -1,16 +1,5 @@
-import ModelLoader from "./components/modelLoader";
-
 function App() {
-  return (
-    <>
-      <ModelLoader
-        modelPath=""
-        backgroundColor=""
-        backgroundImage=""
-        className=""
-      />
-    </>
-  );
+  return <>welcome to react model loader</>;
 }
 
 export default App;

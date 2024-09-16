@@ -9,9 +9,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: 'src/main.tsx',
+      entry: 'src/index.tsx',
       name: 'React Model Loader preview',
-      fileName: (format) => `react-model-loader-preview.${format}.js`,
+      fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'three', '@react-three/fiber', '@react-three/drei'],

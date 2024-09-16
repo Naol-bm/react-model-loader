@@ -1,0 +1,1 @@
+export { default as ModelLoader } from "./components/modelLoader";

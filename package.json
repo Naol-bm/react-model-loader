@@ -1,19 +1,31 @@
 {
   "name": "react-model-loader-preview",
   "version": "0.0.1",
+  "private": false,
   "description": "A React component for loading 3D models with various formats.",
-  "main": "dist/react-model-loader.cjs.js",
-  "module": "dist/react-model-loader.es.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
-    "dist"
+    "/dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  
   "dependencies": {
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",
@@ -36,6 +48,5 @@
     "vite": "^5.4.1",
     "vite-plugin-dts": "^4.2.1"
   },
-  "author": "@NaolBm",
-  "license": "MIT"
+  "author": "@NaolBm"
 }
