@@ -9,7 +9,7 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: 'src/index.ts',
+      entry: 'src/components/modelLoader.tsx',
       name: 'React Model Loader preview',
       fileName: (format) => `index.${format}.js`,
     },

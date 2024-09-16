@@ -52,10 +52,15 @@
   "homepage": "https://github.com/Naol-bm/react-model-loader#readme", 
 "keywords": [
   "react",
-  "3d model",
+  "3D Model",
   "three",
   "@react-three/fiber",
-  "@react-three/drei"
+  "@react-three/drei",
+  "GLTF",
+  "GLB",
+  "FBX",
+  "OBJ",
+  "STL"
 ],
   "repository": {
   "type": "git",
