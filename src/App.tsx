@@ -1,4 +1,3 @@
-import "./App.css";
 import ModelLoader from "./components/modelLoader";
 
 function App() {
