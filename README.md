@@ -34,10 +34,12 @@ function App() {
   return (
     <div style={{ height: "100vh", width: "100%" }}>
       <ModelLoader
-        modelPath="path/to/your/model.glb" // URL or local path to your model file
-        backgroundColor="#f0f0f0" // Optional: Set a background color
-        backgroundImage="path/to/your/background.jpg" // Optional: Set a background image URL
-        className="h-full w-full" // Optional
+        // Required: URL or local path to your 3D model file
+        modelPath="path/to/your/model.glb"
+        // Optional: Props
+        backgroundColor="#f0f0f0"
+        backgroundImage="path/to/your/background.jpg"
+        className="h-full w-full"
       />
     </div>
   );
