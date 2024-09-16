@@ -1,6 +1,6 @@
 {
-  "name": "react-model-loader",
-  "version": "1.0.1",
+  "name": "react-model-loader-preview",
+  "version": "0.0.1",
   "description": "A React component for loading 3D models with various formats.",
   "main": "dist/react-model-loader.cjs.js",
   "module": "dist/react-model-loader.es.js",
