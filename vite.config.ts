@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts';
+import path from 'path';
+
 
 export default defineConfig({
   plugins: [
@@ -9,9 +11,9 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: 'src/components/modelLoader.tsx',
-      name: 'React Model Loader preview',
-      fileName: (format) => `modelLoader.${format}.js`,
+      entry: path.resolve(__dirname, 'src/lib/index.js'),
+      name: 'react-model-loader-preview',
+      fileName: (format) => `modelLoader.${format}.ts`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'three', '@react-three/fiber', '@react-three/drei'],

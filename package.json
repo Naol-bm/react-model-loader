@@ -29,6 +29,7 @@
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",
     "@types/node": "^22.5.5",
+    "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.168.0"
@@ -49,22 +50,21 @@
     "vite-plugin-dts": "^4.2.1"
   },
   "author": "@NaolBm",
-  "homepage": "https://github.com/Naol-bm/react-model-loader#readme", 
-"keywords": [
-  "react",
-  "3D Model",
-  "three",
-  "@react-three/fiber",
-  "@react-three/drei",
-  "GLTF",
-  "GLB",
-  "FBX",
-  "OBJ",
-  "STL"
-],
+  "homepage": "https://github.com/Naol-bm/react-model-loader#readme",
+  "keywords": [
+    "react",
+    "3D Model",
+    "three",
+    "@react-three/fiber",
+    "@react-three/drei",
+    "GLTF",
+    "GLB",
+    "FBX",
+    "OBJ",
+    "STL"
+  ],
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/Naol-bm/react-model-loader.git"
-}
-
+    "type": "git",
+    "url": "git+https://github.com/Naol-bm/react-model-loader.git"
+  }
 }
